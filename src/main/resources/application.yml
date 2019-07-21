@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://localhost:1433;databaseName=TestCRUD
+    username: SA
+    password: Password
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+  security:
+    user:
+      name: test
+      password: Password
+
